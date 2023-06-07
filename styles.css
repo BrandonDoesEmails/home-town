@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: #ccc;
+}
+
+.container {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-image: url(./imgs/torshov-image.png);
+    background-size: cover;
+    background-position: center;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1, .hero p {
+    color: #fff;
+    font-weight: 700;
+    line-height: 34px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    background: #1d3557;
+    font-size: 32px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    background: #457b9d;
+    font-size: 19px;
+    padding: 5px 20px;
+}
+
+.activities {
+    height: 378px;
+    background: #f1faee;
+    padding: 40px 35px;
+}
+
+.activities h2 {
+    color: #1d3557;
+    margin-bottom: 50px;
+}
+
+.columns {
+    display: flex;
+    gap: 50px;
+}
+
+.columns img {
+    border-radius: 50%;
+    margin-bottom: 22px;
+}
+
+.columns h3, .columns p {
+    color: #1d3557;
+    line-height: 18px;
+}
+
+.columns h3 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 17px;
+}
+
+.columns p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.your-guide {
+    padding: 50px 150px 40px;
+    background: #fff;
+}
+
+.wrapper {
+    background: #a8dadc;
+    border-radius: 10px;
+    border-bottom: 6px solid #1d3557;
+    padding: 20px 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.wrapper img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.wrapper div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
